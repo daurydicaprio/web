@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daury DiCaprio - Mente, Alimentación y Finanzas</title>
+    <meta name="description" content="Un aprendiz de las finanzas personales, una alimentación sábia y por supuesto mi salud mental.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-gradient"></div>
+
+    <header class="header">
+        <div class="container header-inner">
+            <button class="mobile-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a href="#" class="logo-container">
+                <img src="https://daurydicaprio.com/wp-content/uploads/logo-daurydicaprio.svg" alt="Logo Daury DiCaprio">
+            </a>
+            <nav class="nav">
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#hola" class="nav-btn">HOLA</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero reveal">
+            <div class="hero-layout">
+                <div class="hero-content">
+                    <h1 class="hero-title">¿Te interesa mejorar tus finanzas, tu salud y tu futuro?</h1>
+                    <p class="hero-subtitle">Aprende cómo mejorar tu calidad de vida. Si no ahora, ¿cuándo?</p>
+                    <p class="hero-desc">Sé que no es fácil y que requiere esfuerzo, yo lo sé muy bien, pero estoy aquí para apoyarte en el camino hacia el control y una mejor calidad de vida.</p>
+                    <div class="hero-actions">
+                        <a href="#proyectos" class="btn btn-primary">Proyectos</a>
+                        <a href="#hola" class="btn btn-outline">Hola</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="image-stack">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80" alt="Trabajo" class="stack-img img-1">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Alimentación" class="stack-img img-2">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80" alt="Retrato" class="stack-img img-3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal">
+            <div class="glass-card text-card">
+                <p class="quote">"Intentar cada día eliminar mi ego, pues cada vida es un nuevo comienzo... Lo simple, es una virtud, la hipocresía una actitud y amar es gratitud."</p>
+                <p class="quote">"Nada ni nadie podría arrestar mi arte, aunque la vida me falte... #dosmilsiempre #verygoodforlife"</p>
+            </div>
+        </section>
+
+        <section id="holentia" class="section reveal">
+            <div class="section-card">
+                <div class="section-header">
+                    <span class="section-badge">Filosofía</span>
+                    <h2 class="section-title">Holentia</h2>
+                    <p class="section-subtitle">El equilibrio es la clave de una vida plena.</p>
+                </div>
+
+            <div class="holentia-container">
+                <div class="holentia-item">
+                    <div class="holentia-icon-circle">
+                        <svg class="holentia-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a10 10 0 1 0 10 10H12V2z"/>
+                            <path d="M12 2a10 10 0 0 1 10 10"/>
+                            <circle cx="12" cy="12" r="6"/>
+                        </svg>
+                    </div>
+                    <h3>Mente</h3>
+                    <p>La claridad del pensamiento nos guia hacia decisiones sabias.</p>
+                </div>
+
+                <div class="holentia-connector">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </div>
+
+                <div class="holentia-item">
+                    <div class="holentia-icon-circle">
+                        <svg class="holentia-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Relaciones</h3>
+                    <p>La conexión humana nutre el alma y fortalece el espiritu.</p>
+                </div>
+
+                <div class="holentia-connector">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </div>
+
+                <div class="holentia-item">
+                    <div class="holentia-icon-circle">
+                        <svg class="holentia-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/>
+                            <line x1="16" y1="8" x2="2" y2="22"/>
+                            <line x1="17.5" y1="15" x2="9" y2="15"/>
+                        </svg>
+                    </div>
+                    <h3>Cuerpo</h3>
+                    <p>El cuidado físico es el templo donde habitamos.</p>
+                </div>
+
+                <div class="holentia-connector">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </div>
+
+                <div class="holentia-item">
+                    <div class="holentia-icon-circle">
+                        <svg class="holentia-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="1" x2="12" y2="23"/>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                    </div>
+                    <h3>Finanzas</h3>
+                    <p>La libertad financiera es la llave de nuestra autonomía.</p>
+                </div>
+            </div>
+
+            <div class="holentia-conclusion">
+                <div class="holentia-flow-line">
+                    <span class="flow-item">Bienestar</span>
+                    <svg class="flow-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                    <span class="flow-item">Paz</span>
+                    <svg class="flow-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                    <span class="flow-item highlight">Felicidad</span>
+                </div>
+                <p class="conclusion-text">Cuando estos pilares se unen, nace el <strong>Bienestar</strong>. Y es en esa armonía donde encontramos la <strong>Paz</strong>, el verdadero camino hacia la <strong>Felicidad</strong>.</p>
+            </div>
+            </div>
+        </section>
+
+        <section class="section reveal">
+            <div class="split-layout-wrapper">
+                <div class="split-layout">
+                    <div class="split-visual">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Trabajo">
+                    </div>
+                    <div class="split-text">
+                        <h2>¿Quién soy?</h2>
+                        <p>Escéptico, perfeccionista, agradecido, minimalista, optimista, sincero, feliz, al menos eso dirá mi ego.</p>
+                        <p>Siempre intento que la excelencia sea uno de los principales atributos en cada cosa que haga. Me apasiona la nutrición, las finanzas personales, la salud mental y el desarrollo web.</p>
+                        <p>Veo arte en todos lados, y lo que más me gusta es crear.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section reveal">
+            <div class="section-header">
+                <span class="section-badge">Portafolio</span>
+                <h2 class="section-title">Proyectos</h2>
+                <p class="section-subtitle">Ideas y recursos prácticos para mejorar tu calidad de vida.</p>
+            </div>
+            
+            <div class="projects-grid">
+                <a href="https://finanzasconlibertad.com/" target="_blank" class="project-card">
+                    <div class="card-img"><img src="https://daurydicaprio.com/wp-content/uploads/logo-finanzasconlibertad.svg" alt="Finanzas con Libertad"></div>
+                    <div class="card-body"><h3>finanzasconlibertad.com</h3><p>Aprende a gastar el dinero con conciencia para planificar tu vida financiera.</p></div>
+                </a>
+                <a href="https://uninversionista.com/" target="_blank" class="project-card">
+                    <div class="card-img"><img src="https://daurydicaprio.com/wp-content/uploads/logo-uninversionista.svg" alt="Un Inversionista"></div>
+                    <div class="card-body"><h3>uninversionista.com</h3><p>Ahorrar no basta. Es fundamental invertir el dinero de forma natural.</p></div>
+                </a>
+                <a href="https://vibloner.com/" target="_blank" class="project-card">
+                    <div class="card-img"><img src="https://daurydicaprio.com/wp-content/uploads/logo-web-vibloner-4.svg" alt="Vibloner"></div>
+                    <div class="card-body"><h3>vibloner.com</h3><p>Creación de contenidos, desarrollo web, VPS y marketing.</p></div>
+                </a>
+                <a href="#" class="project-card">
+                    <div class="card-img"><img src="https://daurydicaprio.com/wp-content/uploads/logo-alimentacionsabia.svg" alt="Alimentación Sabia"></div>
+                    <div class="card-body"><h3>alimentacionsabia.com</h3><p>Aprender a comer es fundamental para nuestro bienestar.</p></div>
+                </a>
+                <a href="#" class="project-card">
+                    <div class="card-img"><img src="https://daurydicaprio.com/wp-content/uploads/logo-esduralavida.svg" alt="Es Dura la Vida"></div>
+                    <div class="card-body"><h3>esduralavida.com</h3><p>La vida es dura, pero nosotros somos más duros. Vivir plenamente.</p></div>
+                </a>
+                <a href="#" class="project-card">
+                    <div class="card-img"><img src="https://daurydicaprio.com/wp-content/uploads/logo-daurydicaprio.svg" alt="Daury DiCaprio"></div>
+                    <div class="card-body"><h3>daurydicaprio.com</h3><p>Vivir el presente, hacer el bien y no mirar a quién.</p></div>
+                </a>
+            </div>
+        </section>
+
+        <section id="hola" class="section reveal">
+            <div class="contact-wrapper glass-card">
+                <div class="contact-info">
+                    <h2>¡Hablemos!</h2>
+                    <p>¿Tienes alguna pregunta o quieres colaborar? Escríbeme y con gusto te respondo.</p>
+                    <div class="socials">
+                        <a href="#" aria-label="X">X</a>
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="#" aria-label="YouTube">YT</a>
+                    </div>
+                </div>
+                <!-- 
+                    IMPORTANT: Replace the URL below with your Brevo Form Action URL.
+                    You can find this URL in your Brevo dashboard under: 
+                    Forms > HTML Direct > Form Action URL
+                -->
+                <form class="contact-form" action="URL_DE_BREVO_AQUI" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="FNAME" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="EMAIL" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="MESSAGE" rows="4" placeholder="¿En qué puedo ayudarte?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>Hecho con ❤ 🇩🇴 <strong>#VERyGoodforlife</strong></p>
+            <div class="footer-links">
+                <a href="#">Política de privacidad</a>
+                <a href="#">Aviso legal</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
